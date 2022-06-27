@@ -1,20 +1,23 @@
-#lista de numeros 
-num_1 = int(input("Ingresa el primer número: "))
-num_2 = int(input("Ingresa el segundo número: "))
-num_3 = int(input("Ingresa el tercer número: "))
-num_4 = int(input("Ingresa el cuarto número: "))
-num_5 = int(input("Ingresa el quinto número: "))
+#módulos
+from maximo import mayor
 
-lista = [num_1, num_2, num_3, num_4, num_5]
+#lista de numeros 
+lista = []
+
+for i in range(1,6):
+    lista += [int(input("Ingresa el " + str(i) + ".º número entero: "))]
 
 #Funcion suma 
-lista = [num_1, num_2, num_3, num_4, num_5]
-total = 0
+def suma(lista):
 
-for i in lista:
-    total += i
+    total = 0
 
-print("El resultado de la suma de todos los elementos es" + total)
+    for i in lista:
+        total += i
+
+    print("El resultado de la suma de todos los elementos es", total)
+
 
 #yordy ruiz
 #Aula 1
+
