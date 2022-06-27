@@ -18,8 +18,6 @@ def suma(lista):
     print("El resultado de la suma de todos los elementos es", total)
 
 
-mayor(lista)
-
 #yordy ruiz
 #Aula 1
 
