@@ -6,7 +6,6 @@ num_4 = int(input("Ingresa el cuarto número: "))
 num_5 = int(input("Ingresa el quinto número: "))
 
 lista = [num_1, num_2, num_3, num_4, num_5]
-total = 0
 
 #Funcion suma 
 lista = [num_1, num_2, num_3, num_4, num_5]
