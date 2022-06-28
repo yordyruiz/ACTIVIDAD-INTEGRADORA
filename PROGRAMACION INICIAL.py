@@ -1,11 +1,13 @@
 #módulos
 from maximo import mayor
+from promedio import calcular_promedio  
 
 #lista de numeros 
 lista = []
 
 for i in range(1,6):
     lista += [int(input("Ingresa el " + str(i) + ".º número entero: "))]
+calcular_promedio(lista)
 
 #Funcion suma 
 def suma(lista):
@@ -16,6 +18,16 @@ def suma(lista):
         total += i
 
     print("El resultado de la suma de todos los elementos es", total)
+
+ 
+
+
+    
+
+
+
+
+
 
 
 #yordy ruiz
