@@ -1,12 +1,9 @@
-from xml.dom import minicompat
-
-
 def minimo (lista):
    
    minimo=0
 
-    for i in range (len(lista)):
-     if lista[i]>minimo:
-       minimo=lista[i]
+   for i in range (len(lista)):
+      if lista[i]<minimo:
+         minimo=lista[i]
 
-    print("El mayor número es:", minimo)
+   print("El mayor número es:", minimo)
