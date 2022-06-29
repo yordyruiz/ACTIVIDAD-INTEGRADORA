@@ -5,4 +5,4 @@ def suma(lista):
     for i in lista:
         total += i
 
-    print("El resultado de la suma de todos los elementos es", total)
+    print("El resultado de la suma es", total)
