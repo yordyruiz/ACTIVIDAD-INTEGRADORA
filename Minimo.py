@@ -1,9 +1,9 @@
 def minimo (lista):
    
-   minimo=0
+   minimo=999
 
    for i in range (len(lista)):
       if lista[i]<minimo:
          minimo=lista[i]
 
-   print("El mayor número es:", minimo)
+   print("El menor número es:", minimo)

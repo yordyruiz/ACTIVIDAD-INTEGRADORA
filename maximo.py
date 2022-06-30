@@ -1,6 +1,6 @@
 def mayor(lista):
    
-    maximo=0
+    maximo=-999
 
     for i in range (len(lista)):
      if lista[i]>maximo:
